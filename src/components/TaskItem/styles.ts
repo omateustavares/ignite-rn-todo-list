@@ -18,12 +18,27 @@ export const styles = StyleSheet.create({
     borderRightWidth: 2,
     borderLeftWidth: 2,
   },
+  taskButton: {
+    display: "flex",
+    flexDirection: "row",
+  },
   taskCheck: {
     height: 18,
     width: 18,
     borderRadius: 10,
     borderWidth: 2,
     borderColor: "#4EA8DE",
+    marginRight: 15,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  taskChecked: {
+    height: 18,
+    width: 18,
+    borderRadius: 10,
+    borderWidth: 2,
+    borderColor: "#5E60CE",
+    backgroundColor: "#5E60CE",
     marginRight: 15,
     alignItems: "center",
     justifyContent: "center",
@@ -39,5 +54,18 @@ export const styles = StyleSheet.create({
   },
   taskText: {
     color: "#FFF",
+  },
+  taskTextDone: {
+    color: "#808080",
+    textDecorationLine: "line-through",
+  },
+  buttonTrash: {
+    alignItems: "center",
+    justifyContent: "center",
+    right: 0,
+    position: "absolute",
+    marginRight: 10,
+    width: 26,
+    height: 26,
   },
 });

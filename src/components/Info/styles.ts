@@ -9,7 +9,12 @@ export const styles = StyleSheet.create({
     borderBottomWidth: 2,
     paddingBottom: 20,
   },
+  infoContent: {
+    flexDirection: "row",
+  },
   counter: {
+    position: "relative",
+    left: 0,
     backgroundColor: "#333333",
     width: 25,
     height: 19,

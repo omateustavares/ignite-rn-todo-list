@@ -16,6 +16,7 @@ export const styles = StyleSheet.create({
     padding: 16,
     backgroundColor: "#262626",
     marginRight: 12,
+    color: "#F2F2F2",
   },
   button: {
     backgroundColor: "#1E6F9F",
